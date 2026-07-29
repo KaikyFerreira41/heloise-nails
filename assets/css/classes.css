@@ -1,0 +1,32 @@
+:root {
+    --pink-color: #DD1188;
+    --white-color: #ffffff;
+    --gap: 3rem;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-content-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-bg {
+    background-image: url('../imgs/rose-brackground.svg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+

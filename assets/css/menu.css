@@ -1,0 +1,46 @@
+#nav-position {
+   position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid var(--grey);
+    background: var(--white-color);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+}
+
+#nav-list {
+    display: flex;
+    gap: var(--gap);
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--pink-color);
+}
+
+#nav-logo {
+    font-size: 14px;
+    padding-left: 12.5px;
+    color: #fbea00;
+    
+}
+
+#div-logo {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libertinus Math', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
