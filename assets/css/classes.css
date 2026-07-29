@@ -1,9 +1,10 @@
 :root {
-    --pink-color: #DD1188;
+    --pink-color: #D529B6;
     --white-color: #ffffff;
+    --grey: #979595;
     --gap: 3rem;
+    --puple-color: #773d94;
 }
-
 
 * {
     padding: 0;
@@ -24,9 +25,20 @@ li {
 }
 
 .main-bg {
-    background-image: url('../imgs/rose-brackground.svg');
+    background-image:url('../imgs/rose-petals.svg');
     height: 100vh;
     background-size: cover;
     background-position: center center;
+    border-bottom: 1px solid var(--grey);
 }
 
+.white-bg {
+    background: var(--white-color);
+    height: 100vh;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 7rem var(--gap);
+}
