@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-between;
     height: 65px;
-    padding: 0px 48px 0px 48px;
+    padding: 0px 30px 0px 30px;
 }
 
 #nav-list {
@@ -22,20 +22,20 @@
     gap: var(--gap);
     font-family: 'Open sans', sans-serif;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .nav-item a {
     text-decoration: none;
     color: var(--pink-color);
     position: relative;
+    padding: 10px;
 }
 
 #nav-logo {
     font-size: 14px;
     padding-left: 12.5px;
-    color: #fbea00;
-    
+    color: #fbea00;   
 }
 
 #div-logo {
@@ -50,14 +50,14 @@
     content: '';
     position: absolute;
     left: 50%;
-    bottom: -2px;
-    height: 2.5px;
+    bottom: 8px;
+    height: 2px;
     width: 0;
     background: var(--pink-color);
-    transition: all 500ms ease-in-out;
+    transition: all 250ms ease-in-out;
 }
 
 .nav-item a:hover::after {
-    width: 100%;
-    left: 0%;
+    width: 82%;
+    left: 10%;
 }
