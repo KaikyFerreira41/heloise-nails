@@ -27,23 +27,22 @@
 
 .nav-item a {
     text-decoration: none;
-    color: var(--pink-color);
+    color: var(--golden-color);
     position: relative;
     padding: 10px;
 }
 
-#nav-logo {
-    font-size: 14px;
-    padding-left: 12.5px;
-    color: #fbea00;   
+#div-logo {
+    line-height: initial;
+    font-size: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#div-logo {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Libertinus Math', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
+#logo {
+    width: 100%;
+    height: 50px;
 }
 
 .nav-item a::after {
@@ -53,7 +52,7 @@
     bottom: 8px;
     height: 2px;
     width: 0;
-    background: var(--pink-color);
+    background: var(--golden-color);
     transition: all 250ms ease-in-out;
 }
 

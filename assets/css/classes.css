@@ -5,16 +5,15 @@
 }
 
 .main-bg {
-    background-image:url('../imgs/rose-petals.svg');
+    background-image:url('../imgs/golden-frame.svg');
     background-size: cover;
     background-position: center center;
-    border-bottom: 1px solid var(--grey);
-    color: var(--white-color);
+    color: var(--golden-color);
 }
 
 .white-bg {
     background: var(--white-color);
-    color: var(--pink-color);
+    color: var(--golden-color);
 }
 
 .main-content {

@@ -1,9 +1,8 @@
 :root {
-    --pink-color: #D529B6;
+    --golden-color: #f2d95a;
     --white-color: #ffffff;
     --grey: #979595;
     --gap: 3rem;
-    --puple-color: #773d94;
 }
 
 * {
@@ -62,4 +61,8 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: "Montserrat", sans-serif;
+}
+
+main {
+    margin-top: 65px;
 }
