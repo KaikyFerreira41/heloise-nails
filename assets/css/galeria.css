@@ -1,0 +1,31 @@
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+}
+
+.galeria-img img {
+    width: 100%;
+    max-width: 360px;
+    height: 100%;
+    max-height: 255px;
+    object-fit: cover;
+    transition: all 300ms ease-in-out;
+}
+
+.galeria-img {
+    width: 100%;
+    max-width: 360px;
+    height: 248px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.galeria-img img:hover {
+    transform: translate(-3%, 3%) scale(1.2) ;
+}
+
+#p-galeria {
+    margin-top: 10px;
+    margin-bottom: 150px;
+}

@@ -5,10 +5,10 @@
 }
 
 .main-bg {
-    background-image:url('../imgs/golden-frame.svg');
-    background-size: cover;
+    background-image:url('../imgs/sun-tornado2.svg');
+    background-size: 1920px;
     background-position: center center;
-    color: var(--golden-color);
+    color: var(--white-color);
 }
 
 .white-bg {
