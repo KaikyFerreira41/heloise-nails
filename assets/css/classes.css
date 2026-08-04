@@ -23,6 +23,15 @@
     height: 100vh;
 }
 
+.footer-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 7rem var(--gap);
+    height: 25rem;
+
+}
+
+
 .grid-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
