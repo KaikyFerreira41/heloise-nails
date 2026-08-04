@@ -6,3 +6,15 @@
 .h1, .p {
     padding-left: 10px;
 }
+
+#grid-img-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-sobre {
+    max-width: 500px;
+    max-height: 360px;
+    border-radius: 10px;
+}

@@ -5,15 +5,15 @@
 }
 
 .main-bg {
-    background-image:url('../imgs/sun-tornado2.svg');
-    background-size: 1920px;
+    background-image:url('../imgs/background.svg');
+    background-size: cover;
     background-position: center center;
     color: var(--white-color);
 }
 
 .white-bg {
     background: var(--white-color);
-    color: var(--golden-color);
+    color: var(--blue);
 }
 
 .main-content {
