@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/sobre.css">
     <link rel="stylesheet" href="assets/css/galeria.css">
     <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js" integrity="sha512-8LENNbXmzI/Gbj+OwXmqR6V4QaUAw0/porPzy1+dQoJqC0JPHedWoe0DDOTL2uHA5XXJyIsPtiMHH86pVlay6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -43,7 +45,23 @@
                         <a href="#contato">Contato</a>
                     </li>
                 </ul>
+                <button id="mobile-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </nav>
+            <div id="mobile-menu">
+                <ul id="nav-list-mobile">
+                    <li class="nav-item">
+                        <a href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#galeria">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -118,7 +136,8 @@
             <p>Entre em contato para agendar seu horário ou tirar dúvidas:</p>
 
             <div class="contato-links">
-                <a href="https://api.whatsapp.com/send/?phone=5564992885038&text&type=phone_number&app_absent=0" target="_blank">
+                <a href="https://api.whatsapp.com/send/?phone=5564992885038&text&type=phone_number&app_absent=0"
+                    target="_blank">
                     <i class="fa-brands fa-whatsapp"></i> WhatsApp
                 </a>
                 <a href="https://www.instagram.com/heloise_silva_nails?igsh=MWJzeWtqOGMwNXdrNA==" target="_blank">
@@ -128,6 +147,7 @@
         </div>
     </footer>
 
+    <script src="script/jquery.js"></script>
     <script src="script/script.js"></script>
 </body>
 
