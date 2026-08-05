@@ -22,3 +22,13 @@
     background: var(--blue);
     color: var(--white-color);
 }
+
+#criador {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#criador a {
+    text-decoration: none;
+    color: var(--golden-color);
+}

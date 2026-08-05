@@ -9,6 +9,8 @@
 
 @media screen and (max-width: 1170px) {
     
+    
+    
     #nav-list {
         display: none;
     }
@@ -37,5 +39,31 @@
     #nav-list-mobile .nav-item {
         list-style: none;
         text-align: center;
+    }
+
+    .grid-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+
+    #p-galeria {
+    margin-bottom: 50px;
+    }
+
+    h1{
+        font-size: 4.5rem;
+    }
+
+    #img-sobre{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .grid-galeria img {
+        border-radius: 10px;
+    }
+    
+    .grid-galeria {
+    grid-auto-columns: 350px;
     }
 }
