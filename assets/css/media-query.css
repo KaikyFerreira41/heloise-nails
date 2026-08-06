@@ -66,4 +66,7 @@
     .grid-galeria {
     grid-auto-columns: 350px;
     }
+    .tabela-precos tr {
+    border: 1px solid var(--grey);
+    }
 }
